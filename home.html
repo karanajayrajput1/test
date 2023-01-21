@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"/>
+    <title>RESUME GENERATOR</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 3, 61); 
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+.uni{
+    background-image: url("C:\Users\karan\Desktop\mini project\VID_20220916_090455_667.mp4");
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+.logo{
+    cursor: pointer;
+    width: 160px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 3, 61); 
+    font-size: 20px;
+}
+.content h1{
+    font-size: 500%;
+    font-weight: 1000;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.content h2  {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+     
+}
+
+.content h6 {
+    display: flex;
+    justify-content: center;
+}
+.content{
+    margin-top: 10%;
+}
+
+
+.container1{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+  .cr{
+    margin-top: 40px;
+  }
+  .Profession{
+    text-align: center;
+    padding-top: 200px;
+  }
+@media all and (max-width: 780px) {
+    .prof {
+      margin-left: 15%;
+    }
+
+}
+    </style>
+  </head>
+  <body>
+    <div class="uni">
+    <div class="container">
+      <div class="navbar" id="Home">
+        <nav>
+          <ul>
+            <li><a href="#Home" style="text-decoration: none; color: rgb(0, 3, 61); ">Home</a></li>
+            <li><a href="" style="text-decoration: none; color: rgb(0, 3, 61); ">About Us</a></li>
+            <li><a href="#profession" style="text-decoration: none; color: rgb(0, 3, 61); ">Profession</a></li>
+            <li><a href="/logout" role="button" style="text-decoration: none; color: rgb(0, 3, 61); ">Log Out</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content" id="Home">
+        <div>
+        <h1>Resume Maker</h1>
+        <h2>Create a professional resume for free</h2>
+        <h6>
+        <button type="button" class="btn btn-outline-light create">
+            <a href="#start" style="text-decoration: none; color: rgb(0, 3, 61);">
+              Create Resume
+            </a>
+          </button></h6>
+      </div>
+    </div>
+         </div>
+        </div>
+        <div class="Profession" id="start">
+            <h2>Choose Your Profession</h2>
+          <div class="container1" id="profession">
+            <div class="card cr" style="width: 18rem; border:0cm;">
+              <img src="./image/engineer.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Software Engineer</h5>
+                <a href="personal.html" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+            <div class="card cr" style="width: 18rem; border:0cm;">
+              <img src="teacher.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Teacher</h5>
+                <a href="personal.html" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+            <div class="card cr" style="width: 18rem; border:0cm;">
+              <img src="387561.png" height="95%" width="95%" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Doctor</h5>
+                <a href="personal.html" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+            <div class="card cr" style="width: 18rem; border:0cm;">
+              <img src="pilot.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pilot</h5>
+                <a href="personal.html" class="btn btn-primary">Select</a>
+              </div>
+            </div>
+          </div>
+          </div>
+    
+  </body>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+  crossorigin="anonymous"
+></script>
+</html>
